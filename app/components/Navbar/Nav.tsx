@@ -9,7 +9,7 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <div className="h-[12vh] bg-white shadow-md dark:bg-black">
+    <div className="h-[12vh] bg-white shadow-md  dark:bg-gray-900">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
         <h1 className="text-[20px] md:text-[30px] font-bold text-slate-800 dark:text-white">
           <Link href="/">
@@ -17,7 +17,7 @@ const Nav = ({ openNav }: Props) => {
             Whiskey.
           </Link>{" "}
         </h1>
-        <ul className="hidden lg:flex items-center space-x-10 font-bold ">
+        <ul className="hidden lg:flex items-center space-x-10 font-bold uppercase">
           <li className="text-[17px] cursor-pointer text-paa">
             <Link href="/">Home</Link>
           </li>
@@ -37,7 +37,7 @@ const Nav = ({ openNav }: Props) => {
           <Bars3BottomRightIcon
             onClick={openNav}
             className="w-[1.5rem] lg:hidden h-[1.5rem]
-          text-slate-900 cursor-pointer"
+          text-slate-900 dark:bg-white cursor-pointer"
           />
         </div>
       </div>

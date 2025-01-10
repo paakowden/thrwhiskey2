@@ -17,7 +17,7 @@ const Hero = () => {
             className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] font-bold
           text-[#02073e] leading-[2.4rem] md:leading-[4rem]"
           >
-            <div className="dark:text-white">
+            <div className="dark:text-white md:col-span-3 md:mt-[200px]">
               <span className="text-paa md:col-span-3">#3 </span> Whiskey, Takes
               you to your imagination.
             </div>
@@ -38,7 +38,7 @@ const Hero = () => {
           <div
             data-aos="zoom-in"
             data-aos-delay="400"
-            className="flex items-center space-x-4 md:space-x-6 md:mb-4"
+            className="flex items-center space-x-4 md:space-x-6 md:mb-[2rem]"
           >
             <Link href="/sales">
               <ButtonBlue text="Buy Now" />

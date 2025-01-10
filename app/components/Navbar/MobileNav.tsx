@@ -20,7 +20,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
       />
       <ul
         className="relative z-[201] space-y-10 flex flex-col justify-center h-[100%] 
-      items-center"
+      items-center uppercase"
       >
         <li className="text-[25px] cursor-pointer text-white">
           <Link href="/">Home</Link>
