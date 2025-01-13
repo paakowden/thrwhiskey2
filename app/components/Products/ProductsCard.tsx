@@ -27,7 +27,7 @@ const ProductsCard = ({ image, title }: CardProps) => {
       >
         {title}
       </h1>
-      <p className="mt-[1rem] text-black opacity-90 text-[15px] dark:text-white">
+      <p className="mt-[1rem] text-black opacity-90 text-[15px] dark:text-white text-muted-foreground">
         Exciting taste that captures your imagination. Our carefully curated
         collection brings you a taste of luxury with every bottle, allowing you
         to savor the best that the world of whiskey has to offer.

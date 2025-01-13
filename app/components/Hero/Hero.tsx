@@ -21,7 +21,7 @@ const Hero = () => {
             <p
               data-aos="fade-right"
               data-aos-delay="200"
-              className="px-12 pb-4 mt-4 inline-block "
+              className="px-12 pb-4 mt-4 inline-block text-muted-foreground"
             >
               Welcome to #3 African Whiskey, a brand born from two years of
               dedication and passion. Established in 2023 and proudly rooted in

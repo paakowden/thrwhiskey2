@@ -15,7 +15,10 @@ const SupportTeam = () => {
           >
             Do you need help? Our team is ready to help you.
           </h1>
-          <p className="text-gray-900  opacity-90 text-[17px] mt-[1rem] dark:text-white">
+          <p
+            className="text-gray-900  opacity-90 text-[17px] mt-[1rem] dark:text-white
+          text-muted-foreground"
+          >
             #3 whiskey, is brewed in Ghana with a distinct flavor and iconic
             branding. Every bottle of #3 Whiskey tells a story of craftsmanship,
             community, and the pursuit of excellence. We&apos;re excited to
@@ -34,7 +37,10 @@ const SupportTeam = () => {
               <h1 className="text-[18px] text-gray-900 font-[500] mb-[0.5rem] dark:text-white">
                 Email client support
               </h1>
-              <p className="md:w-[70%] w-[90%] text-[15px] text-black opacity-85 dark:text-white">
+              <p
+                className="md:w-[70%] w-[90%] text-[15px] text-black opacity-85 dark:text-white
+              text-muted-foreground"
+              >
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Nostrum, laboriosam
               </p>
@@ -52,7 +58,10 @@ const SupportTeam = () => {
               <h1 className="text-[18px] text-gray-900 font-[500] mb-[0.5rem] dark:text-white">
                 Sales support
               </h1>
-              <p className="md:w-[70%] w-[90%] text-[15px] text-black opacity-85 dark:text-white">
+              <p
+                className="md:w-[70%] w-[90%] text-[15px] text-black opacity-85 dark:text-white
+              text-muted-foreground"
+              >
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Nostrum, laboriosam
               </p>
