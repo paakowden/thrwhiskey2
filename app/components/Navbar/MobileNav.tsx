@@ -22,16 +22,16 @@ const MobileNav = ({ nav, closeNav }: Props) => {
         className="relative z-[201] space-y-10 flex flex-col justify-center h-[100%] 
       items-center uppercase"
       >
-        <li className="text-[25px] cursor-pointer text-white">
+        <li className="text-[18px] cursor-pointer text-white">
           <Link href="/">Home</Link>
         </li>
-        <li className="text-[25px] cursor-pointer text-white hover:text-paa transition-all duration-200">
+        <li className="text-[18px] cursor-pointer text-white hover:text-paa transition-all duration-200">
           <Link href="/about">About Us</Link>
         </li>
-        <li className="text-[25px] cursor-pointer text-white hover:text-paa transition-all duration-200">
+        <li className="text-[18px] cursor-pointer text-white hover:text-paa transition-all duration-200">
           <Link href="/contact">Contact Us</Link>
         </li>
-        <li className="text-[25px] cursor-pointer text-white hover:text-paa transition-all duration-200">
+        <li className="text-[18px] cursor-pointer text-white hover:text-paa transition-all duration-200">
           <Link href="/gallery">Gallery</Link>
         </li>
       </ul>

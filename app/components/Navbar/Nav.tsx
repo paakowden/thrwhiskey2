@@ -9,7 +9,7 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <div className="h-[12vh] bg-white shadow-md  dark:bg-gray-900">
+    <div className="h-[12vh] bg-white shadow-md dark:bg-gray-900">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
         <h1 className="text-[20px] md:text-[30px] font-bold text-slate-800 dark:text-white">
           <Link href="/">
@@ -18,16 +18,16 @@ const Nav = ({ openNav }: Props) => {
           </Link>{" "}
         </h1>
         <ul className="hidden lg:flex items-center space-x-10 font-bold uppercase">
-          <li className="text-[17px] cursor-pointer text-paa">
+          <li className="text-[15px] cursor-pointer text-paa">
             <Link href="/">Home</Link>
           </li>
-          <li className="text-[17px] cursor-pointer hover:text-paa transition-all duration-200">
+          <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
             <Link href="/about">About Us</Link>
           </li>
-          <li className="text-[17px] cursor-pointer hover:text-paa transition-all duration-200">
+          <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
             <Link href="/contact">Contact Us</Link>
           </li>
-          <li className="text-[17px] cursor-pointer hover:text-paa transition-all duration-200">
+          <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
             <Link href="/gallery">Gallery</Link>
           </li>
         </ul>

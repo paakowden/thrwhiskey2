@@ -8,18 +8,17 @@ const Hero = () => {
   return (
     <div
       className="h-[70vh] lg:h-[88vh] md:h-[80vh] sm:h-[75vh] flex items-center
-    flex-col justify-center"
+    flex-col justify-center "
     >
       <div className="grid grid-cols-1 lg:grid-cols-5 items-center w-[80%] mx-auto">
-        <div className="col-span-2">
+        <div className="col-span-2 ">
           <h1
             data-aos="fade-left"
             className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] font-bold
           text-[#02073e] leading-[2.4rem] md:leading-[4rem]"
           >
-            <div className="dark:text-white md:col-span-3 md:mt-[200px]">
-              <span className="text-paa md:col-span-3">#3 </span> Whiskey, Takes
-              you to your imagination.
+            <div className="dark:text-white md:overflow-hidden sm:overflow-hidden">
+              #3 Whiskey, Takes you to your imagination.
             </div>
           </h1>
           <p

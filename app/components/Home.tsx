@@ -1,12 +1,12 @@
 "use client";
 import React, { useEffect } from "react";
-import Hero from "./Hero/Hero";
 import Products from "./Products/Products";
 import Media from "./Media/Media";
 import SupportTeam from "./SupportTeam/SupportTeam";
 import CustomerReviews from "./CutomerReviews/CustomerReviews";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Slider from "./Slider/Slider";
 
 const Home = () => {
   useEffect(() => {
@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div>
-      <Hero />
+      <Slider />
       <Products />
       <Media />
       <SupportTeam />

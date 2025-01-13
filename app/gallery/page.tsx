@@ -25,7 +25,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery1.jpg"
+            src="/images/3Whiskey_2.jpeg"
             width={500}
             height={200}
             alt=""
@@ -37,7 +37,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery2.jpg"
+            src="/images/3Whiskey_4.jpg"
             width={500}
             height={200}
             alt=""
@@ -46,7 +46,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery3.jpg"
+            src="/images/3Whiskey_6.jpg"
             width={500}
             height={200}
             alt=""
@@ -55,7 +55,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery4.jpg"
+            src="/images/3Whiskey_8.jpg"
             width={500}
             height={200}
             alt=""
@@ -67,7 +67,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery5.jpg"
+            src="/images/3Whiskey_10.jpg"
             width={500}
             height={200}
             alt=""
@@ -76,7 +76,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery6.jpg"
+            src="/images/3Whiskey_11.jpeg"
             width={500}
             height={200}
             alt=""
@@ -85,7 +85,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery7.jpg"
+            src="/images/3Whiskey_12.jpg"
             width={500}
             height={200}
             alt=""
@@ -96,7 +96,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery8.jpg"
+            src="/images/3Whiskey_13.jpeg"
             width={500}
             height={200}
             alt=""
@@ -105,7 +105,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery9.jpg"
+            src="/images/3Whiskey_14.jpeg"
             width={500}
             height={200}
             alt=""
@@ -114,7 +114,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/gallery10.jpg"
+            src="/images/3Whiskey_15.jpg"
             width={500}
             height={200}
             alt=""

@@ -10,7 +10,7 @@ import Pic5 from "@/public/images/3Whiskey_10.jpg";
 
 const Products = () => {
   return (
-    <div className="pt-[3rem] pb-[3rem]">
+    <div className="pt-[5rem] pb-[3rem]">
       {/* SectionHeading */}
       <SectionHeading
         headingMini="Takes you to your imagination"
