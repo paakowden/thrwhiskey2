@@ -7,6 +7,7 @@ import CustomerReviews from "./CutomerReviews/CustomerReviews";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "./Slider/Slider";
+import Hero from "./Hero/Hero";
 
 const Home = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Home = () => {
   return (
     <div>
       <Slider />
+      <Hero />
       <Products />
       <Media />
       <SupportTeam />

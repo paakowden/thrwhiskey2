@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import ButtonBlue from "../Buttons/ButtonBlue";
 
 const slides = [
   {
@@ -64,9 +65,7 @@ const Slider = () => {
                 {slide.title}
               </h1>
               <Link href={slide.url}>
-                <button className="rounded-md bg-rose-500 text-white py-3 px-4">
-                  BUY NOW
-                </button>
+                <ButtonBlue text="Buy Now" />
               </Link>
             </div>
             {/* IMAGE CONTAINER */}
