@@ -64,7 +64,7 @@ const About = () => {
             whileInView={"onscreen"}
             variants={tagVariants}
           >
-            <p className="pb-8 tracking-wide mt-6">
+            <p className="pb-8 tracking-wide mt-6 text-muted-foreground">
               Welcome to No.3 African Whiskey, a brand born from seven years of
               dedication and passion. Established in 2023 and proudly rooted in
               Ghana, our whiskey represents the fusion of rich African heritage
