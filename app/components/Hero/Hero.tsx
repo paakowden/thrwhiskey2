@@ -10,13 +10,14 @@ const Hero = () => {
       <div className="grid lg:grid-cols-2 place-items-center">
         <div>
           <div className="items-center">
-            <h2
+            <h3
               data-aos="fade-left"
-              className="px-12 py-4 text-3xl font-extrabold leading-tight
-          lg:text-5xl inline-block"
+              className="px-12 py-4 text-xl font-bold leading-tight
+          lg:text-3xl inline-block"
             >
-              #3 Whiskey, Takes you to your imagination.
-            </h2>
+              <span className="text-paa">#3 </span>Whiskey, Takes you to your
+              imagination.
+            </h3>
             <p
               data-aos="fade-right"
               data-aos-delay="200"
