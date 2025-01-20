@@ -32,13 +32,13 @@ const SupportTeam = () => {
             />
             <div>
               <h1 className="text-[18px] text-gray-900 font-[500] mb-[0.5rem] dark:text-white">
-                Email client support
+                Client email support
               </h1>
               <p
                 className="md:w-[70%] w-[90%] text-[15px] text-black opacity-85 dark:text-white
               text-muted-foreground"
               >
-                Our sales team are in hand to reply to your emails promptly.
+                Our sales team are on hand to reply to your emails promptly.
               </p>
             </div>
           </div>
@@ -58,8 +58,8 @@ const SupportTeam = () => {
                 className="md:w-[70%] w-[90%] text-[15px] text-black opacity-85 dark:text-white
               text-muted-foreground"
               >
-                Our sales team are in hand to help you solve your purchasing
-                problems and where to get our products.
+                Our sales team are on hand to help you solve your purchasing
+                problems and also where to get our products.
               </p>
             </div>
           </div>

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Whiskey",
-  description: "Africa's Whiskey",
+  description: "Africa's finest Whiskey",
   icons: { icon: "/logo.jpeg" },
 };
 

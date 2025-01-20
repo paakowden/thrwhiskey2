@@ -23,12 +23,13 @@ const Hero = () => {
               data-aos-delay="200"
               className="px-12 pb-4 mt-4 inline-block text-muted-foreground"
             >
-              Welcome to #3 African Whiskey, a brand born from two years of
-              dedication and passion. Established in 2023 and proudly rooted in
-              Ghana, our whiskey represents the fusion of rich African heritage
-              with the finest whiskey-making traditions. With the theme “Drink
-              and Tourism,” we invite you to experience the unique flavors of
-              our whiskey while exploring the beauty and culture of Africa.
+              Welcome to <span className="text-paa">#3 </span>African Whiskey, a
+              brand born from two years of dedication and passion. Established
+              in 2023 and proudly rooted in Ghana, our whiskey represents the
+              fusion of rich African heritage with the finest whiskey-making
+              traditions. With the theme “Drink and Tourism,” we invite you to
+              experience the unique flavors of our whiskey while exploring the
+              beauty and culture of Africa.
             </p>
           </div>
           <div data-aos="zoom-in" data-aos-delay="400" className="mt-4 ml-10">
