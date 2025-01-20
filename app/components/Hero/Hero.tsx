@@ -15,7 +15,7 @@ const Hero = () => {
               className="px-12 py-4 text-xl font-bold leading-tight
           lg:text-3xl inline-block"
             >
-              <span className="text-paa">#3 </span>Whiskey, Takes you to your
+              <span className="text-paa">#3 </span>Whiskey,Takes you to your
               imagination.
             </h3>
             <p

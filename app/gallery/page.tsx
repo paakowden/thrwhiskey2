@@ -16,7 +16,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_5.jpg"
+            src="/images/3Whiskey_12.jpg"
             width={500}
             height={200}
             alt=""
@@ -55,7 +55,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_8.jpg"
+            src="/images/3Whiskey_11.jpeg"
             width={500}
             height={200}
             alt=""
@@ -67,7 +67,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_10.jpg"
+            src="/images/3Whiskey_11.jpeg"
             width={500}
             height={200}
             alt=""
