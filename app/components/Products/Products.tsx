@@ -29,7 +29,7 @@ const Products = () => {
           data-aos-anchor-placement="top-center"
         >
           <ProductsCard
-            title="A taste of Luxury in Every Bottle."
+            title="A taste of Luxury in Every Bottle"
             image={Pic1.src}
           />
         </div>

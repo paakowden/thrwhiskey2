@@ -2,14 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ButtonBlue from "../Buttons/ButtonBlue";
 
 const slides = [
   {
     id: 1,
     title: "Takes you to your imagination",
-    description: "Delight in a bottle",
+    description: "A taste of Luxury in Every Bottle",
     img: "/images/3Whiskey_15.jpg",
     url: "/sales",
     bg: "bg-gradient-to-r from-yellow-50 to-pink-50",
@@ -17,7 +17,7 @@ const slides = [
   {
     id: 2,
     title: "Takes you to your imagination",
-    description: "Delight in a bottle",
+    description: "Carefully Crafted",
     img: "/images/slider2.jpg",
     url: "/sales",
     bg: "bg-gradient-to-r from-pink-50 to-blue-50",
@@ -25,7 +25,7 @@ const slides = [
   {
     id: 3,
     title: "Takes you to your imagination",
-    description: "Delight in a bottle",
+    description: "Soothes your taste Buds",
     img: "/images/3Whiskey_4.jpg",
     url: "/sales",
     bg: "bg-gradient-to-r from-blue-50 to-yellow-50",
@@ -35,12 +35,12 @@ const slides = [
 const Slider = () => {
   const [current, setCurrent] = useState(0);
 
-  //useEffect(() => {
-  // const interval = setInterval(() => {
-  //  setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-  // }, 3000);
-  // return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="h-[calc(100vh-80px)] overflow-hidden">
