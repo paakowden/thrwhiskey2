@@ -28,6 +28,9 @@ const Nav = ({ openNav }: Props) => {
             <Link href="/contact">Contact Us</Link>
           </li>
           <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
+            <Link href="/affilliates">Affilliates</Link>
+          </li>
+          <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
             <Link href="/gallery">Gallery</Link>
           </li>
         </ul>
