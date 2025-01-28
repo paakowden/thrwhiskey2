@@ -31,9 +31,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
         <li className="text-[18px] cursor-pointer text-white hover:text-paa transition-all duration-200">
           <Link href="/contact">Contact Us</Link>
         </li>
-        <li className="text-[18px] cursor-pointer text-white hover:text-paa transition-all duration-200">
-          <Link href="/affilliates">Affilliates</Link>
-        </li>
+
         <li className="text-[18px] cursor-pointer text-white hover:text-paa transition-all duration-200">
           <Link href="/gallery">Gallery</Link>
         </li>

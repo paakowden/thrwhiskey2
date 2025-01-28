@@ -9,7 +9,7 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <div className="h-[12vh] bg-white shadow-md dark:bg-gray-900">
+    <div className="h-[12vh] bg-gray-100  dark:bg-gray-900 fixed w-full top-0 left-0 z-50">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
         <h1 className="text-[20px] md:text-[30px] font-bold text-slate-800 dark:text-white">
           <Link href="/">
@@ -27,9 +27,7 @@ const Nav = ({ openNav }: Props) => {
           <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
             <Link href="/contact">Contact Us</Link>
           </li>
-          <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
-            <Link href="/affilliates">Affilliates</Link>
-          </li>
+
           <li className="text-[15px] cursor-pointer hover:text-paa transition-all duration-200">
             <Link href="/gallery">Gallery</Link>
           </li>

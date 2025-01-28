@@ -4,7 +4,7 @@ import ProductsCard from "./ProductsCard";
 import Pic from "@/public/images/3Whiskey_1.jpg";
 import Pic1 from "@/public/images/3Whiskey_3.jpg";
 import Pic2 from "@/public/images/3Whiskey_6.jpg";
-import Pic3 from "@/public/images/3Whiskey_9.jpg";
+import Pic3 from "@/public/images/3Whiskey_17.jpeg";
 import Pic4 from "@/public/images/3Whiskey_8.jpg";
 import Pic5 from "@/public/images/3Whiskey_10.jpg";
 

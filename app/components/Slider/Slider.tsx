@@ -30,6 +30,14 @@ const slides = [
     url: "/sales",
     bg: "bg-gradient-to-r from-blue-50 to-yellow-50",
   },
+  {
+    id: 4,
+    title: "Takes you to your imagination",
+    description: "Great Flavor",
+    img: "/images/3Whiskey_18.jpeg",
+    url: "/sales",
+    bg: "bg-gradient-to-r from-blue-50 to-yellow-50",
+  },
 ];
 
 const Slider = () => {
@@ -38,7 +46,7 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 5000);
+    }, 10000);
     return () => clearInterval(interval);
   }, []);
 
@@ -83,11 +91,11 @@ const Slider = () => {
           </div>
         ))}
       </div>
-      <div className="absolute m-auto left-1/2 bottom-8 flex gap-4">
+      <div className="absolute m-auto left-1/2 bottom-[7rem] flex gap-4 ">
         {slides.map((slide, index) => (
           <div
             className={`w-3 h-3 rounded-full ring-1 ring-gray-900 cursor-pointer
-        flex items-center justify-center ${
+        flex items-center justify-center  ${
           current === index ? "scale-150" : ""
         }`}
             key={slide.id}
