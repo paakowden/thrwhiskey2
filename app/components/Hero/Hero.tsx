@@ -38,7 +38,11 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div data-aos="flip-left" data-aos-delay="600" className="items-center">
+        <div
+          data-aos="flip-left"
+          data-aos-delay="600"
+          className="items-center md:mt-10"
+        >
           <Image
             src={HeroImg}
             width={550}
