@@ -66,7 +66,7 @@ const Slider = () => {
               className="h-1/2 xl:w-1/2 xl:h-full flex flex-col items-center justify-center gap-8
             2xl:gap-12 text-center dark:text-black"
             >
-              <h2 className="text-xl lg:text-3xl 2xl:text-5xl">
+              <h2 className="text-xl mt-20 lg:text-3xl 2xl:text-5xl">
                 {slide.description}
               </h2>
               <h1 className="text-2xl lg:text-6xl 2xl:text-8xl font-semibold">
