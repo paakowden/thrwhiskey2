@@ -9,7 +9,7 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <div className="h-[12vh] bg-gray-100  dark:bg-gray-900 fixed w-full top-0 left-0 z-50">
+    <div className="h-[10vh] bg-gray-100  dark:bg-gray-900 fixed w-full top-0 left-0 z-50">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
         <h1 className="text-[20px] md:text-[30px] font-bold text-slate-800 dark:text-white">
           <Link href="/">
