@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="container py-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="container py-24 grid grid-cols-2 md:grid-cols-4 gap-4">
       <div className="flex flex-col gap-4">
         <div>
           <Image
@@ -67,7 +67,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_5.jpg"
+            src="/images/3Whiskey_19.jpeg"
             width={500}
             height={200}
             alt=""

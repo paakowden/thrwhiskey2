@@ -38,7 +38,7 @@ export default function Contact() {
 
   return (
     <div>
-      <div className="bg-[url('/images/3Whiskey_5_dark.jpg')] bg-center bg-cover">
+      <div className="bg-[url('/images/3Whiskey_5_dark.jpg')] bg-center bg-cover py-14">
         <h1
           className="container py-64 text-6xl font-semibold tracking-widest text-center
         text-white"

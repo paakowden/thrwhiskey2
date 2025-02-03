@@ -29,7 +29,8 @@ const Media = () => {
             className="text-[20px] md:text-[25px] lg:text-[28px] text-[#02073e] font-bold
           leading-[2rem] md:leading-[3rem] dark:text-white"
           >
-            Experience the joy of exceptional #3 whiskey in a well crafted
+            Experience the joy of exceptional{" "}
+            <span className="text-paa">#3</span> whiskey in a well crafted
             bottle, where every glass is filled with passion and warmth.
           </h1>
           <p
@@ -39,11 +40,12 @@ const Media = () => {
             className="mt-[1.5rem] mb-[1.5rem] text-black opacity-90 text-[15px]
           md:text-[16px] dark:text-white text-muted-foreground"
           >
-            #3 whiskey, is brewed in Ghana with a distinct flavor and iconic
-            branding. Every bottle of #3 Whiskey tells a story of craftsmanship,
-            community, and the pursuit of excellence. We&apos;re excited to
-            share this journey with you, offering a taste of Africa that&apos;s
-            as bold and vibrant as the continent itself.
+            <span className="text-paa">#3 </span>Whiskey, is brewed in Ghana
+            with a distinct flavor and iconic branding. Every bottle of #3
+            Whiskey tells a story of craftsmanship, community, and the pursuit
+            of excellence. We&apos;re excited to share this journey with you,
+            offering a taste of Africa that&apos;s as bold and vibrant as the
+            continent itself.
           </p>
           <div
             data-aos="fade-up"
