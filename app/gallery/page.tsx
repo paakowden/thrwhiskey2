@@ -7,7 +7,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey.jpg"
+            src="/images/3Whiskey_9.jpg"
             width={500}
             height={200}
             alt=""
@@ -16,7 +16,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_12.jpg"
+            src="/images/3Whiskey_21.jpeg"
             width={500}
             height={200}
             alt=""
@@ -55,7 +55,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_11.jpeg"
+            src="/images/3Whiskey_20.jpeg"
             width={500}
             height={200}
             alt=""
@@ -76,7 +76,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_11.jpeg"
+            src="/images/3Whiskey_7.jpg"
             width={500}
             height={200}
             alt=""
@@ -85,7 +85,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_12.jpg"
+            src="/images/3Whiskey_22.jpg"
             width={500}
             height={200}
             alt=""
@@ -96,7 +96,7 @@ const page = () => {
         <div>
           <Image
             className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_13.jpeg"
+            src="/images/3Whiskey_23.jpg"
             width={500}
             height={200}
             alt=""
@@ -104,8 +104,8 @@ const page = () => {
         </div>
         <div>
           <Image
-            className="h-auto max-w-full rounded-lg hover:scale-90 transition-all"
-            src="/images/3Whiskey_14.jpeg"
+            className="h-auto max-w-full rounded-lg"
+            src="/images/3Whiskey_18.jpeg"
             width={500}
             height={200}
             alt=""

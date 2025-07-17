@@ -50,7 +50,7 @@ const About = () => {
           {/* left Image Section */}
           <motion.div style={{ scale }} ref={ref} className="w-full">
             <Image
-              src="/images/3Whiskey.jpg"
+              src="/images/3Whiskey_21.jpeg"
               width={700}
               height={600}
               alt="abtimg"
