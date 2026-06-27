@@ -6,8 +6,9 @@ import SupportTeam from "./SupportTeam/SupportTeam";
 import CustomerReviews from "./CutomerReviews/CustomerReviews";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Slider from "./Slider/Slider";
+//import Slider from "./Slider/Slider";
 import Hero from "./Hero/Hero";
+import Slider1 from "./Slider1";
 
 const Home = () => {
   useEffect(() => {
@@ -21,7 +22,8 @@ const Home = () => {
 
   return (
     <div>
-      <Slider />
+      {/*<Slider /> */}
+      <Slider1 />
       <Hero />
       <Products />
       <Media />
